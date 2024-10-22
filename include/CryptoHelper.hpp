@@ -2,6 +2,6 @@
 
 namespace cryptohelper {
   bool isPrime(const BigInt&, unsigned int);
-  BigInteger ExtendedEuclidian(const BigInteger&, const BigInteger&);
-  BigInteger RandomBigInt(const BigInteger&, const BigInteger&);
+  BigInt ExtendedEuclidian(const BigInt&, const BigInt&);
+  BigInt RandomBigInt(const BigInt&, const BigInt&);
 }
