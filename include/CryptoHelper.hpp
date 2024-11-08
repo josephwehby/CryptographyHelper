@@ -1,3 +1,5 @@
+#include <iostream>
+#include <random>
 #include "BigInteger.hpp"
 
 namespace cryptohelper {
