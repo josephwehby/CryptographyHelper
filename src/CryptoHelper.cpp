@@ -1,7 +1,6 @@
 #include "CryptoHelper.hpp"
 
-bool cryptohelper::isPrime(const BigInt& a, unsigned int k) {
-  /*
+bool cryptohelper::isPrime(BigInt num, unsigned int k) {
   if (num <= 3) return true;
   if (num % 2 == 0) return false;
 
@@ -39,8 +38,7 @@ bool cryptohelper::isPrime(const BigInt& a, unsigned int k) {
 
     if (x != num-1) return false;
   }
-*/
-  std::cout << RandomBigInt(1, a) << std::endl;
+
   return true;
 }
 
